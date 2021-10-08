@@ -1,0 +1,839 @@
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    /*index start*/
+    div#navbarNav {
+        margin-right: 100px;
+    }
+    .top-footer-content ul h5 {
+        font-size: 18px;
+    }
+    .top-footer-content button,
+    .d-none-xl {
+        display: none;
+    }
+    .tandc {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .tandc a span {
+        margin: 0px;
+    }
+    /*index end*/
+    /*technology page start*/
+    .technology-banner {
+        transform: translate(-93%, -50%);
+    }
+    .technology-banner-image img {
+        transform: translate(-5%, -55%);
+    }
+    /*technology page start*/
+    /*cloud start*/
+    .cloud img {
+        left: -30px;
+        width: 180px;
+        top: 40px;
+    }
+    .clouds img {
+        width: 220px;
+        right: -60px;
+        top: 280px;
+    }
+    /*cloud end*/
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /*index start*/
+    div#navbarNav {
+        margin-right: 70px;
+    }
+    li.nav-item {
+        margin: 0 15px;
+    }
+    .pt-s-50 {
+        padding-top: 50px !important;
+    }
+    .pb-s-50 {
+        padding-bottom: 50px !important;
+    }
+    .banner {
+        margin: 0px;
+    }
+    .drone {
+        left: 70%;
+        bottom: 68%;
+    }
+    .drone img {
+        width: 150px;
+    }
+    @keyframes sun {
+        20% {
+            transform: scale(0.5);
+        }
+        50% {
+            transform: translate(300px, 500px);
+            width: 200px;
+        }
+        75% {
+            transform: translate(300px, -220px);
+            width: 70px;
+        }
+        100% {}
+    }
+    .service-box p {
+        text-align: left;
+    }
+    .top-footer-content button {
+        display: none;
+    }
+    .top-footer-content ul h5 {
+        font-size: 18px;
+    }
+    .tandc {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .tandc a span {
+        margin: 0px;
+    }
+    /*index end*/
+    /*blog start*/
+    .single-box-blog {
+        min-height: 390px;
+    }
+    /*blog end*/
+    /*technology-page start*/
+    .technology-banner-image img {
+        width: 600px;
+        top: 56%;
+    }
+    .technology-banner {
+        transform: translate(-78%, -50%);
+    }
+    .app-ss img {
+        width: 250px;
+    }
+    .app-ss {
+        margin-bottom: 80px;
+    }
+    /*technology-page end*/
+    /*cloud start*/
+    .cloud img {
+        left: -30px;
+        width: 180px;
+        top: 40px;
+    }
+    .clouds img {
+        width: 220px;
+        right: -60px;
+        top: 280px;
+    }
+    /*cloud end*/
+    /*client-return-start*/
+    .banner-info {
+        width: 800px;
+    }
+    /*client-return-start*/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pt-s-50 {
+        padding-top: 50px !important;
+    }
+    .pb-s-50 {
+        padding-bottom: 50px !important;
+    }
+    /*index start*/
+    a.navbar-brand img {
+        width: 150px;
+    }
+    .nav-menu {
+        border-bottom: 1px solid #30b0e6;
+    }
+    div#navbarNav {
+        margin: 0px !important;
+    }
+    section.top-header {
+        padding: 0px;
+        margin-top: 105px;
+    }
+    .row.d-flex.align-items-center {
+        flex-flow: column-reverse;
+    }
+    .banner {
+        margin: 0px 15px !important;
+    }
+    .banner-img {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .banner-img img {
+        margin-bottom: 50px;
+    }
+    .service-box {
+        margin-bottom: 30px;
+        height: 400px;
+    }
+    .more-service {
+        margin-top: 10px;
+    }
+    .drone img {
+        width: 100px;
+    }
+    .drone {
+        left: 70% !important;
+        bottom: 90% !important;
+    }
+    @keyframes sun {
+        20% {
+            transform: scale(0.5);
+        }
+        50% {
+            transform: translate(575px, 500px);
+            width: 250px;
+        }
+        75% {
+            transform: translate(575px, -500px);
+            width: 50px;
+        }
+        100% {}
+    }
+    .short-brief p {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .short-brief span {
+        font-size: 16px;
+    }
+    .short-brief h1 {
+        margin-top: 20px;
+    }
+    .short-brief button {
+        padding: 15px 25px;
+    }
+    .short-brief button a {
+        font-size: 18px;
+    }
+    .top-footer-content {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .logo-footer {
+        display: none;
+    }
+    .copyright span {
+        color: white;
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+    /*index start*/
+    /*blog start*/
+    .single-box-blog {
+        margin-bottom: 50px;
+    }
+    /*blog end*/
+    /*contact start*/
+    .maildrone {
+        display: none;
+    }
+    textarea {
+        margin-top: 25px;
+    }
+    .contacts button {
+        margin-top: 50px;
+    }
+    /*contact end*/
+    /*for-business end*/
+    .testimonil-customer-pic img {
+        width: 300px;
+    }
+    /*for-business end*/
+    /*our-solution-courier start*/
+    .clouds img {
+        width: 180px;
+        right: -20px;
+        top: 12px;
+    }
+    .cloud img {
+        left: 10px;
+        width: 200px;
+        top: 135px;
+    }
+    .mobile {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .mobile img {
+        width: 400px;
+    }
+    /*our-solution-courier start end*/
+    /*Services-Next-Day-Deliveryn start*/
+    .Grow-area img {
+        width: 400px;
+    }
+    .Grow-area {
+        margin-bottom: 40px;
+    }
+    .banner-img img {
+        width: 400px;
+    }
+    /*Services-Next-Day-Delivery end*/
+    /*technology-page start*/
+    .technology-banner-image img {
+        width: 450px;
+        top: 64%;
+        left: 45%;
+    }
+    .technology-banner {
+        transform: translate(-70%, -50%);
+        width: 500px;
+    }
+    .technology-banner h1 {
+        font-size: 25px;
+    }
+    .download-app a button {
+        padding: 10px 15px;
+    }
+    .download-app a button i {
+        font-size: 30px;
+    }
+    .download-app a button strong {
+        font-size: 16px !important;
+    }
+    .app-ss {
+        margin-bottom: 80px;
+    }
+    .ss-md img {
+        width: 100%;
+    }
+    .mt-md {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    .row.d-flex.align-items-center.lg-app {
+        flex-direction: row !important;
+    }
+    /*technology-page end*/
+    /*cloud start*/
+    .cloud {
+        display: none;
+    }
+    .clouds {
+        display: none;
+    }
+    /*cloud end*/
+    /*time-sensitive-drlivery-start*/
+    .cta p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .small-ts-box {
+        border-radius: 50px;
+        padding: 30px 30px;
+        box-shadow: 0 0 20px #14141421;
+    }
+    .row.small-ts-box.d-flex.align-items-center.mt-50.mb-50 {
+        flex-flow: row;
+    }
+    /*time-sensitive-drlivery-end*/
+    /*fleet-solution-start*/
+    .Fleet.Management {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .single-box-operator {
+        min-height: 451px;
+    }
+    .right-requirement-photo {
+        display: none;
+    }
+    .left-requirement-main {
+        padding: 60px 40px;
+    }
+    /*fleet-solution-end*/
+    /*client-return-start*/
+    .banner-info {
+        width: 600px;
+    }
+    .banner-info p {
+        font-size: 20px;
+    }
+    /*client-return-start*/
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .pt-s-50 {
+        padding-top: 50px !important;
+    }
+    .pb-s-50 {
+        padding-bottom: 50px !important;
+    }
+    /*index start*/
+    a.navbar-brand img {
+        width: 150px;
+    }
+    .nav-menu {
+        border-bottom: 1px solid #30b0e6;
+    }
+    div#navbarNav {
+        margin: 0px !important;
+    }
+    section.top-header {
+        padding: 0px;
+        margin-top: 105px;
+    }
+    .row.d-flex.align-items-center {
+        flex-flow: column-reverse;
+    }
+    .banner {
+        margin: 0px 15px !important;
+    }
+    .banner-img {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .banner-img img {
+        margin-bottom: 50px;
+    }
+    .service-box {
+        margin-bottom: 30px;
+        height: 400px;
+    }
+    .more-service {
+        margin-top: 10px;
+    }
+    .drone img {
+        width: 100px;
+    }
+    .drone {
+        left: 60% !important;
+        bottom: 85% !important;
+    }
+    @keyframes sun {
+        20% {
+            transform: scale(0.5);
+        }
+        50% {
+            transform: translate(150px, 180px);
+            width: 90px;
+        }
+        75% {
+            transform: translate(90px, -100px);
+            width: 50px;
+        }
+        100% {}
+    }
+    .short-brief p {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .short-brief span {
+        font-size: 16px;
+    }
+    .short-brief h1 {
+        margin-top: 20px;
+    }
+    .short-brief button {
+        padding: 15px 25px;
+    }
+    .short-brief button a {
+        font-size: 18px;
+    }
+    .top-footer-content {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .logo-footer {
+        display: none;
+    }
+    .copyright span {
+        color: white;
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+    /*index start*/
+    /*blog start*/
+    .single-box-blog {
+        margin-bottom: 50px;
+    }
+    /*blog end*/
+    /*contact start*/
+    .maildrone {
+        display: none;
+    }
+    textarea {
+        margin-top: 25px;
+    }
+    .contacts button {
+        margin-top: 50px;
+    }
+    /*contact end*/
+    /*for-business start*/
+    .single-box-testimonial {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        padding: 40px 0px;
+    }
+    .testimonil-customer-pic img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 50px
+    }
+    .testimonil-info p {
+        font-size: 18px;
+    }
+    /*for-business end*/
+    /*our-solution-courier start*/
+    .mobile {
+        margin-bottom: 40px;
+    }
+    .clouds img {
+        width: 100px;
+        right: -20px;
+        top: 12px;
+    }
+    .cloud img {
+        left: 0px;
+        width: 120px;
+        top: 280px;
+    }
+    /*our-solution-courier start end*/
+    /*our-vision start */
+    .next-day p {
+        font-size: 16px;
+        text-align: left;
+    }
+    /*our-vision end */
+    /*Services-Next-Day-Deliveryn start*/
+    .Grow-area {
+        margin-bottom: 40px;
+    }
+    /*Services-Next-Day-Delivery end*/
+    /*technology-page start*/
+    .technology-banner-image img {
+        display: none;
+    }
+    .technology-banner {
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 500px;
+    }
+    .app-ss img {
+        width: 220px;
+    }
+    .more-ss img {
+        width: 150px;
+    }
+    .technology-banner h1 {
+        font-size: 25px;
+    }
+    .download-app a button {
+        padding: 10px 15px;
+    }
+    .download-app a button i {
+        font-size: 30px;
+    }
+    .download-app a button strong {
+        font-size: 16px !important;
+    }
+    .app-ss {
+        margin-bottom: 80px;
+    }
+    .mt-md {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    /*technology-page end*/
+    /*time-sensitive-drlivery-start*/
+    .cta p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .small-ts-box {
+        border-radius: 50px;
+        padding: 30px 30px;
+        box-shadow: 0 0 20px #14141421;
+    }
+    .small-ts-box {
+        padding: 30px 20px;
+        margin: 25px 5px;
+    }
+    .time-sensitive-info-left h2 {
+        text-align: center;
+    }
+    /*time-sensitive-drlivery-end*/
+    /*fleet-solution-start*/
+    .Fleet.Management {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .Fleet.Management p {
+        font-size: 16px;
+    }
+    .single-box-operator {
+        height: auto;
+    }
+    .right-requirement-photo {
+        display: none;
+    }
+    .left-requirement-main {
+        padding: 60px 40px;
+    }
+    /*fleet-solution-end*/
+    /*client-return-start*/
+    .banner-info {
+        width: 400px;
+    }
+    .banner-info p {
+        font-size: 20px;
+    }
+    /*client-return-start*/
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 24px !important;
+    }
+    .pt-s-50 {
+        padding-top: 50px !important;
+    }
+    .pb-s-50 {
+        padding-bottom: 50px !important;
+    }
+    /*index start*/
+    a.navbar-brand img {
+        width: 150px;
+    }
+    .nav-menu {
+        border-bottom: 1px solid #30b0e6;
+    }
+    div#navbarNav {
+        margin: 0px !important;
+    }
+    section.top-header {
+        padding: 0px;
+        margin-top: 105px;
+    }
+    .row.d-flex.align-items-center {
+        flex-flow: column-reverse;
+    }
+    .banner {
+        margin: 0px 15px !important;
+    }
+    .banner-img {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .banner-img img {
+        margin-bottom: 50px;
+    }
+    .service-box {
+        margin-bottom: 30px;
+        height: 400px;
+    }
+    .more-service {
+        margin-top: 10px;
+    }
+    .drone img {
+        width: 80px;
+    }
+    .drone {
+        left: 60% !important;
+        bottom: 90% !important;
+    }
+    @keyframes sun {
+        20% {
+            transform: scale(0.5);
+        }
+        50% {
+            transform: translate(150px, 180px);
+            width: 90px;
+        }
+        75% {
+            transform: translate(90px, -100px);
+            width: 50px;
+        }
+        100% {}
+    }
+    .short-brief p {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .short-brief span {
+        font-size: 16px;
+    }
+    .short-brief h1 {
+        margin-top: 20px;
+    }
+    .short-brief button {
+        padding: 15px 25px;
+    }
+    .short-brief button a {
+        font-size: 18px;
+    }
+    .top-footer-content {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .logo-footer {
+        display: none;
+    }
+    .copyright span {
+        color: white;
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+    /*index start*/
+    /*blog start*/
+    .single-box-blog {
+        margin-bottom: 40px;
+        min-height: 400px;
+    }
+    .blog-content {
+        background: #1d2130;
+        padding: 20px 25px;
+    }
+    /*blog end*/
+    /*contact start*/
+    .maildrone {
+        display: none;
+    }
+    textarea {
+        margin-top: 25px;
+    }
+    .contacts button {
+        margin-top: 50px;
+    }
+    /*contact end*/
+    /*for-business start*/
+    .single-box-testimonial {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        padding: 40px 0px;
+    }
+    .testimonil-customer-pic img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 50px
+    }
+    .testimonil-info p {
+        font-size: 18px;
+    }
+    /*for-business end*/
+    /*our-solution-courier start*/
+    .mobile {
+        margin-bottom: 40px;
+    }
+    .clouds img {
+        width: 100px;
+        right: -20px;
+        top: 12px;
+    }
+    .cloud img {
+        left: 0px;
+        width: 120px;
+        top: 280px;
+    }
+    /*our-solution-courier  end*/
+    /*our-vision start */
+    .next-day p {
+        font-size: 16px;
+    }
+    /*our-vision end*/
+    /*Services-Next-Day-Deliveryn start*/
+    .Grow-area {
+        margin-bottom: 40px;
+    }
+    /*Services-Next-Day-Delivery end*/
+    /*technology-page start*/
+    .technology-banner-image img {
+        display: none;
+    }
+    .technology-banner {
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 350px !important;
+    }
+    .app-ss img {
+        width: 220px;
+    }
+    .more-ss img {
+        width: 150px;
+    }
+    .technology-banner h1 {
+        font-size: 25px;
+    }
+    .download-app a button {
+        padding: 5px 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .download-app a button i {
+        font-size: 30px;
+    }
+    .download-app a button strong {
+        font-size: 14px !important;
+    }
+    .app-ss {
+        margin-bottom: 80px;
+    }
+    .mt-md {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    .lg-app {
+        flex-flow: row-reverse !important;
+    }
+    /*technology-page end*/
+    /*time-sensitive-drlivery-start*/
+    .cta p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .small-ts-box {
+        border-radius: 50px;
+        padding: 30px 30px;
+        box-shadow: 0 0 20px #14141421;
+    }
+    .small-ts-box {
+        padding: 30px 20px;
+        margin: 25px 5px;
+    }
+    .time-sensitive-info-left h2 {
+        text-align: center;
+    }
+    /*time-sensitive-drlivery-end*/
+    /*fleet-solution-start*/
+    .Fleet.Management {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .Fleet.Management p {
+        font-size: 16px;
+    }
+    .single-box-operator {
+        height: auto;
+    }
+    .right-requirement-photo {
+        display: none;
+    }
+    .left-requirement-main {
+        padding: 60px 40px;
+    }
+    /*fleet-solution-end*/
+    /*client-return-start*/
+    .banner-info {
+        width: 250px;
+    }
+    .banner-info p {
+        font-size: 16px;
+    }
+    /*client-return-start*/
+}
